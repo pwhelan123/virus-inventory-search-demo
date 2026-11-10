@@ -82,7 +82,7 @@ def load_relational(xl: pd.ExcelFile, lab: str) -> pd.DataFrame:
     return out
 
 
-# --------------------------------------------------------------------------- adapter: flat "AAV Data Hub" (Whelan-style)
+# --------------------------------------------------------------------------- adapter: flat "AAV Data Hub" (single-sheet style)
 _SERO = re.compile(r"(AAVrg|AAV\s?DJ|AAVDJ|r?AAV\d?(?:/\d)?(?:-?DJ)?|PHP\.?eB|AAV)", re.I)
 _CRE = re.compile(r"\b(flex|flexfrt|dio|do|fas|frt)\b|-flex|-dio|-DO\b", re.I)
 
