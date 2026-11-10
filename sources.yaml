@@ -1,0 +1,10 @@
+# Demo config: synthetic data only (no real inventories). Paths are relative to the repo root.
+sources:
+  - name: Okafor Lab (synthetic)
+    type: local
+    path: data/Okafor_Lab_Viral_Vector_Registry_SYNTHETIC.xlsx
+    layout: auto
+  - name: Brandt Lab (synthetic)
+    type: local
+    path: data/Brandt_Lab_Viral_Vector_Registry_SYNTHETIC.xlsx
+    layout: auto
